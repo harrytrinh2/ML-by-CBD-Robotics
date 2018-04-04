@@ -87,7 +87,4 @@ Session.configure(bind=engine)
 session = Session()
 
 # Adding objects
-item1=Item(id=1,name='phuc',description='aint')
-bid1=Bid(id=1,price=75.96)
-user1=User(id=1,username='phuc',password='123456')
-session.add(item1)
+item1=Item(id=1,name='phuc',description='aint',start_time=datetime.datetime.utcnow())
