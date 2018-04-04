@@ -41,19 +41,28 @@ o A name string, which cannot be null
 o A description string, which cannot be null
 o A start_time DateTime'''
 import datetime
-class Items(Base):
+class Item(Base):
     __tablename__='Items'
     id = Column(Integer,primary_key=True)
     name = Column(String,nullable=False)
     description = Column(String,nullable=False)
     start_time = Column(sqlalchemy.types.DateTime)
+    def __init__(self,id,name,description,start_time):
+        self.id=id
+        self.name=name
+        self.description=description
+        self.start_time=start_time
     def __repr__(self):
         return ("Items(id=%d,name='%s',description='%s'" % (self.id,self.name,self.description))
+
 
 class Bid(Base):
     __tablename__='Bid'
     id=Column(Integer,primary_key=True)
     price=Column(sqlalchemy.types.Float,nullable=False)
+    def __init__(self,id,price):
+        self.id=id
+        self.price=price
     def __repr__(self):
         return ("Bid(id=%d,price=%f)"%(self.id,self.price))
 
@@ -62,12 +71,16 @@ class User(Base):
     id = Column(Integer,primary_key=True)
     username=Column(String,nullable=False)
     password=Column(String,nullable=False)
-    user_item = relationship("Items")
+    user_item = relationship("Item")
     user_bid  = relationship("Bid")
-
+    def __init__(self,id,username,password):
+        self.id=id
+        self.username=username
+        self.password=password
     def __repr__(self):
         return ("User(id=%d,username='%s',password='%s')" % (self.id,self.username,self.password))
 
-item1=Items(id=1,name='phuc',description='aint')
-user1=User(id=1,username='phuc',password='123456')
-bid1=Bid(id=1,price=75.96)
+# item1=Item(id=1,name='phuc',description='aint')
+# user1=User(id=1,username='phuc',password='123456')
+# bid1=Bid(id=1,price=75.96)
+
