@@ -34,7 +34,7 @@ using our application. A new class called User will be the class to which we map
 Within the class, we define details about the table to which we’ll be mapping, primarily the table name,
 and names and datatypes of columns:
 '''
-from sqlalchemy import Column,Integer,String
+from sqlalchemy import Column,Integer,String,ForeignKey
 '''The items model should contain four columns:
 o An integer id, which is the primary key
 o A name string, which cannot be null
@@ -47,6 +47,7 @@ class Item(Base):
     name = Column(String,nullable=False)
     description = Column(String,nullable=False)
     start_time = Column(sqlalchemy.types.DateTime,default=datetime.datetime.utcnow())
+    user_id = Column(Integer,ForeignKey('User.id'))
     def __init__(self,id,name,description,start_time):
         self.id=id
         self.name=name
@@ -59,6 +60,7 @@ class Bid(Base):
     __tablename__='Bid'
     id=Column(Integer,primary_key=True)
     price=Column(sqlalchemy.types.Float,nullable=False)
+    user_id = Column(Integer,ForeignKey('User.id'))
     def __init__(self,id,price):
         self.id=id
         self.price=price
@@ -88,3 +90,14 @@ session = Session()
 
 # Adding objects
 item1=Item(id=1,name='phuc',description='aint',start_time=datetime.datetime.utcnow())
+user1=User(id=1,username='phuc',password='123456')
+bid1=Bid(id=1,price=75.96)
+# session.add(user1)
+# session.add_all([User(id=1,username='phuc',password='123456'),
+#                  User(id=2, username='ngoc', password='123456'),
+#                  User(id=3, username='nam', password='123456')])
+
+#our_items=session.query(User).first()
+session.query(User).all()
+
+# Querying objects
