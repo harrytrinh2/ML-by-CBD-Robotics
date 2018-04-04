@@ -71,38 +71,3 @@ class User(Base):
 item1=Items(id=1,name='phuc',description='aint')
 user1=User(id=1,username='phuc',password='123456')
 bid1=Bid(id=1,price=75.96)
-
-#print(item1.__repr__(),user1.__repr__(),bid1.__repr__())
-# 4 Create Session
-'''We’re now ready to start talking to the database. The ORM’s “handle” to the database is the Session. When we first set up the application, at the same level as our create_engine() statement, we define a Session class which will serve as a factory for new Session objects:
-'''
-from sqlalchemy.orm import  sessionmaker
-Session= sessionmaker(bind=engine)
-'''In the case where your application does not yet have an Engine when you define your module-level objects, just set it up like this:
->>> Session = sessionmaker()
-'''
-# Later, when you create your engine with create_engine(), connect it to the Session using configure():
-Session.configure(bind=engine)
-'''This custom-made Session class will create new Session objects which are bound to our database.
-Other transactional characteristics may be defined when calling sessionmaker as well;
-these are described in a later chapter. Then, whenever you need to have a conversation with the
-database, you instantiate a Session:
-'''
-session=Session()
-# 5 Adding and Updating Objects
-item1=Items(id=1,name='phuc',description='aint')
-user1=User(id=1,username='phuc',password='123456')
-bid1=Bid(id=1,price=75.96)
-session.add(item1)
-session.add(user1)
-# print(session.query(Items))
-# print(session.query(User))
-# 6 Querying
-# for instance in session.query(Items).order_by(Items.id):
-#     print(instance.name,instance.description)
-# for row in session.query(User).all():
-#     print((User.username))
-
-# 7 Relationship
-from sqlalchemy.orm import relationship
-
