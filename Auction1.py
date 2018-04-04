@@ -46,12 +46,11 @@ class Item(Base):
     id = Column(Integer,primary_key=True)
     name = Column(String,nullable=False)
     description = Column(String,nullable=False)
-    start_time = Column(sqlalchemy.types.DateTime)
+    start_time = Column(sqlalchemy.types.DateTime,default=datetime.datetime.utcnow())
     def __init__(self,id,name,description,start_time):
         self.id=id
         self.name=name
         self.description=description
-        self.start_time=start_time
     def __repr__(self):
         return ("Items(id=%d,name='%s',description='%s'" % (self.id,self.name,self.description))
 
@@ -80,7 +79,15 @@ class User(Base):
     def __repr__(self):
         return ("User(id=%d,username='%s',password='%s')" % (self.id,self.username,self.password))
 
-# item1=Item(id=1,name='phuc',description='aint')
-# user1=User(id=1,username='phuc',password='123456')
-# bid1=Bid(id=1,price=75.96)
+# Creating a session
 
+from sqlalchemy.orm import sessionmaker
+Session = sessionmaker(bind=engine)
+Session.configure(bind=engine)
+session = Session()
+
+# Adding objects
+item1=Item(id=1,name='phuc',description='aint')
+bid1=Bid(id=1,price=75.96)
+user1=User(id=1,username='phuc',password='123456')
+session.add(item1)
