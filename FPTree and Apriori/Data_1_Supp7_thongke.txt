@@ -1,0 +1,9 @@
+Thoi gian bat dau thuc hien 2018-04-18 00:17:25.
+Tap thuong xuyen L1 co 8 phan tu.
+Tap du tuyen C2 co 28 phan tu.
+Tap thuong xuyen L2 co 12 phan tu.
+Tap du tuyen C3 co 10 phan tu.
+Tap thuong xuyen L3 co 3 phan tu.
+Tap du tuyen C4 co 0 phan tu.
+Tap thuong xuyen L4 co 0 phan tu.
+Thoi gian khi thuc hien xong 2018-04-18 00:17:25.
