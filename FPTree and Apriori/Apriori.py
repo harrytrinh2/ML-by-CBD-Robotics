@@ -88,18 +88,10 @@ while True:
         print('Vui long nhap so nguyen.')
 dirname,tenfile=os.path.split(os.path.abspath(sys.argv[0]))
 s=os.path.join(dirname, filename)
-# print("Dirname {} \n Tenfile {} \n s={}".format(dirname,tenfile,s))
-file_thongke=open(os.path.join(dirname,'{0}_Supp{1}_thongke.txt'.format(filename[0:filename.rfind('.')],nguongtoithieu)),mode='w')
-print('Thoi gian bat dau thuc hien {0}.'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
-file_thongke.write('Thoi gian bat dau thuc hien {0}.'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
-file_thongke.write('\n')
 L=tinhdohotro1(s,nguongtoithieu)
 if len(L)==0:
       print('Trong Co so du lieu giao tac khong co muc du lieu thuong xuyen thoa nguong toi thieu {0}'.format(nguongtoithieu))
 else:
-    print('Tap thuong xuyen L1 co {0} phan tu.'.format(len(L)))
-    file_thongke.write('Tap thuong xuyen L1 co {0} phan tu.'.format(len(L)))
-    file_thongke.write('\n')
     output_file = open(os.path.join(dirname,'{0}_Supp{1}_output_ttx.txt'.format(filename[0:filename.rfind('.')],nguongtoithieu)),mode='w')
     for item in L:
         output_file.write(item)
@@ -108,16 +100,6 @@ else:
     k=2
     while L!=[]:
         C=sinhtapC(L,k-1)
-        print('Tap du tuyen C{0} co {1} phan tu.'.format(k,len(C)))
-        file_thongke.write('Tap du tuyen C{0} co {1} phan tu.'.format(k,len(C)))
-        file_thongke.write('\n')
         L=tinhdohotroN(s,C,nguongtoithieu,k)
-        print('Tap thuong xuyen L{0} co {1} phan tu.'.format(k,len(L)))
-        file_thongke.write('Tap thuong xuyen L{0} co {1} phan tu.'.format(k,len(L)))
-        file_thongke.write('\n')
         k+=1
-    print('Thoi gian khi thuc hien xong {0}.'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
-    file_thongke.write('Thoi gian khi thuc hien xong {0}.'.format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
-    file_thongke.write('\n')
-    file_thongke.close()
 

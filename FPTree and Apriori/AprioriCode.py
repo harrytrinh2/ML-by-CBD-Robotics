@@ -12,7 +12,6 @@ def Cal_Support(s,minsupport):
                  C1[item]=1
     L1=[]
     for item in C1:
-        print("c1 {}".format(type(item)))
         if C1[item]>=minsupport:
             L1.append(item)
     print("C1 {} \nL1 {}".format(C1,L1))
