@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36635bdd-743e-46a0-b8d0-1f123f55e640" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPTree and Apriori/fptreeee.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FPTree and Apriori/fptree.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week8/SVM_Plot.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FPTree and Apriori/Apriori.py" afterPath="$PROJECT_DIR$/FPTree and Apriori/Apriori.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py" afterPath="$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py" />
     </list>
     <ignored path="CBD Robotics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,89 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Apriori.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Apriori.py">
+      <file leaf-file-name="SVM_Plot.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week8/SVM_Plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="68" column="22" selection-start-line="68" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AprioriCode.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-567">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FpTree-Growth.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fptreeee.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FPTree and Apriori/fptreeee.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fp-Tree_Output" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Fp-Tree_Output">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data_1_Supp4_output_ttx.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_output_ttx.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data_1_Supp4_thongke.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_thongke.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="frozenset.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FPTree and Apriori/frozenset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -139,6 +57,7 @@
         <option value="$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py" />
         <option value="$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py" />
         <option value="$PROJECT_DIR$/FPTree and Apriori/fptreeee.py" />
+        <option value="$PROJECT_DIR$/week8/SVM_Plot.py" />
       </list>
     </option>
   </component>
@@ -202,6 +121,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="week8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CBD Robotics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CBD Robotics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="week2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -220,20 +153,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CBD Robotics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CBD Robotics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FPTree and Apriori" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -242,9 +161,9 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TetHolidayWithPython" />
   </component>
-  <component name="RunManager" selected="Python.fptreeee">
+  <component name="RunManager" selected="Python.SVM_Plot">
     <configuration default="false" name="Apriori" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,23 +198,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="frozenset" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FPTree and Apriori" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CBD Robotics" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FPTree and Apriori/frozenset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="FpTree-Growth" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,6 +228,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CBD Robotics" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FPTree and Apriori/fptreeee.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SVM_Plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CBD Robotics" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week8/SVM_Plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -467,17 +386,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Apriori" />
       <item index="1" class="java.lang.String" itemvalue="Python.AprioriCode" />
-      <item index="2" class="java.lang.String" itemvalue="Python.frozenset" />
-      <item index="3" class="java.lang.String" itemvalue="Python.FpTree-Growth" />
-      <item index="4" class="java.lang.String" itemvalue="Python.fptreeee" />
+      <item index="2" class="java.lang.String" itemvalue="Python.FpTree-Growth" />
+      <item index="3" class="java.lang.String" itemvalue="Python.fptreeee" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SVM_Plot" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fptreeee" />
-        <item index="1" class="java.lang.String" itemvalue="Python.FpTree-Growth" />
-        <item index="2" class="java.lang.String" itemvalue="Python.AprioriCode" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Apriori" />
-        <item index="4" class="java.lang.String" itemvalue="Python.frozenset" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SVM_Plot" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fptreeee" />
+        <item index="2" class="java.lang.String" itemvalue="Python.FpTree-Growth" />
+        <item index="3" class="java.lang.String" itemvalue="Python.AprioriCode" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Apriori" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +424,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -547,106 +466,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Apriori.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_output_ttx.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_thongke.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/frozenset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Apriori.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/frozenset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Apriori.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/frozenset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Apriori.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_output_ttx.txt" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_thongke.txt" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/frozenset.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Apriori.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/frozenset.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Apriori.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/frozenset.py" />
     <entry file="file://$PROJECT_DIR$/Week1/Auction1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2121">
@@ -714,84 +544,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/frozenset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_thongke.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_output_ttx.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/frozenset.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_thongke.txt" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_1_Supp4_output_ttx.txt" />
     <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_6_Supp1_output_ttx.txt" />
     <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_6_Supp2_thongke.txt" />
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_6_Supp2_output_ttx.txt">
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Data_6_Supp2_output_ttx.txt" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Apriori.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Fp-Tree_Output" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/fptreeee.py" />
+    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py" />
+    <entry file="file://$PROJECT_DIR$/week8/SVM_Plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Apriori.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/Fp-Tree_Output">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="126">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/AprioriCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/fptreeee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FPTree and Apriori/FpTree-Growth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
