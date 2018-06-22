@@ -5,7 +5,7 @@ config:
   config:
     activation: relu
     activity_regularizer: null
-    batch_input_shape: !!python/tuple [null, 6075]
+    batch_input_shape: !!python/tuple [null, 12288]
     bias_constraint: null
     bias_initializer:
       class_name: Zeros

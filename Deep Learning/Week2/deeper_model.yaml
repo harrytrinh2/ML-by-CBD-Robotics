@@ -5,7 +5,7 @@ config:
   config:
     activation: relu
     activity_regularizer: null
-    batch_input_shape: !!python/tuple [null, 6075]
+    batch_input_shape: !!python/tuple [null, 12288]
     bias_constraint: null
     bias_initializer:
       class_name: Zeros
@@ -22,7 +22,7 @@ config:
     units: 256
     use_bias: true
 - class_name: Dropout
-  config: {name: dropout_3, noise_shape: null, rate: 0.05, seed: null, trainable: true}
+  config: {name: dropout_3, noise_shape: null, rate: 0.5, seed: null, trainable: true}
 - class_name: Dense
   config:
     activation: relu
@@ -42,7 +42,7 @@ config:
     units: 128
     use_bias: true
 - class_name: Dropout
-  config: {name: dropout_4, noise_shape: null, rate: 0.05, seed: null, trainable: true}
+  config: {name: dropout_4, noise_shape: null, rate: 0.5, seed: null, trainable: true}
 - class_name: Dense
   config:
     activation: relu
@@ -62,7 +62,7 @@ config:
     units: 128
     use_bias: true
 - class_name: Dropout
-  config: {name: dropout_5, noise_shape: null, rate: 0.05, seed: null, trainable: true}
+  config: {name: dropout_5, noise_shape: null, rate: 0.5, seed: null, trainable: true}
 - class_name: Dense
   config:
     activation: relu
@@ -82,7 +82,7 @@ config:
     units: 128
     use_bias: true
 - class_name: Dropout
-  config: {name: dropout_6, noise_shape: null, rate: 0.05, seed: null, trainable: true}
+  config: {name: dropout_6, noise_shape: null, rate: 0.5, seed: null, trainable: true}
 - class_name: Dense
   config:
     activation: relu
@@ -102,7 +102,7 @@ config:
     units: 128
     use_bias: true
 - class_name: Dropout
-  config: {name: dropout_7, noise_shape: null, rate: 0.05, seed: null, trainable: true}
+  config: {name: dropout_7, noise_shape: null, rate: 0.5, seed: null, trainable: true}
 - class_name: Dense
   config:
     activation: softmax
