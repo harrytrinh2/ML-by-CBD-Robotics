@@ -1,0 +1,108 @@
+ 
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="57x57" href="../static/img/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../static/img/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../static/img/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../static/img/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../static//img/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../static/img/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../static/img/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../static/img/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../static/img/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../static/img/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png">
+  <link rel="manifest" href="../static/manifest.json">
+  <meta name="msapplication-TileColor" content="#8A2BE2">
+  <meta name="msapplication-TileImage" content="../static/img/android-icon-192x192.png">
+  <meta name="theme-color" content="#8A2BE2">
+  <link rel="stylesheet" href="../static/dist/app.css" />
+
+  <title>Lung cancer detection</title>
+</head>
+
+<body background="#8A2BE2">
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <a class="navbar-brand" href="/">
+      <h1>
+        Lung cancer detection
+      </h1>
+    </a>
+  </nav>
+
+    <div class="row drop-form-wrapper" background="#8A2BE2">
+      <form id="upload-form" class="box has-advanced-upload">
+        <div class="box__input">
+
+          <div class="box__canvas hidden">
+            <canvas id="artboard" style="width: 100%; height: 100%;" width="1000" height="1000">
+            </canvas>
+            <div class="box__names"></div>
+          </div>
+          <div class="box__drop_file">
+            <label for="uploader">
+              <svg class="box__icon" width="100%" height="200" viewBox="0 0 1018 1018" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="1.-Input-Panel-OHIT" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <path d="M573.990965,248.000005 C559.023475,248.00388 545.532653,257.025102 539.8111,270.855852 C534.089546,284.686602 537.264435,300.602155 547.854885,311.17893 C558.445335,321.755706 574.364976,324.910027 588.18832,319.170606 C602.011664,313.431186 611.015446,299.928717 610.99998,284.961233 C610.984149,264.536006 594.416193,247.989443 573.990965,248.000005 Z"
+                    id="Shape" stroke="#39BFD3" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M383.990441,384.000005 C363.555906,384.005285 346.994722,400.575027 347.000001,421.009561 C347.00528,441.444094 363.575023,458.005277 384.009558,457.999999 C404.444093,457.99472 421.005277,441.424979 420.999999,420.990445 C421,411.176657 417.10018,401.765096 410.158991,394.827493 C403.217803,387.88989 393.804227,383.994933 383.990441,384.000005 Z"
+                    id="Shape" stroke="#39BFD3" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M794,492.851288 C794,492.851288 725.6974,384.128462 726.709149,380.467085 C819.188731,25.9062051 80.2206493,54.958229 303.110855,491.579844 C338.865682,553.785017 354.185089,758 354.185089,758 L600.106901,758 L610.863892,664.314632 C649.711235,690.3649 738.105642,670.155628 733.275972,608.696114 C728.446303,547.236601 760.898628,509.571259 760.898628,509.571259 L794,492.851288 Z"
+                    id="Shape" stroke="#39BFD3" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <polyline id="Shape" stroke="#39BFD3" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" points="602 426 546.815534 426 546.815534 593 504 593"></polyline>
+                  <path d="M604,425.000003 C604.000003,445.43205 620.561584,461.996482 640.993629,461.999999 C661.425675,462.003517 677.992959,445.44479 677.999998,425.012744 C678.007036,404.580698 661.451165,388.01056 641.019121,388.000001 C631.203576,387.997465 621.789041,391.894244 614.846609,398.83309 C607.904177,405.771937 604.002535,415.184457 604,425.000003 Z"
+                    id="Shape" stroke="#39BFD3" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <polyline id="Shape" stroke="#39BFD3" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" points="410 447 443 480.281049 443 750"></polyline>
+                  <polyline id="Shape" stroke="#39BFD3" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" points="547 313 495 365.48544 495 754"></polyline>
+                  <circle id="Oval" stroke="#39BFD3" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" cx="509" cy="509" r="496.5"></circle>
+
+                </g>
+              </svg>
+              <input type="file" name="files" id="uploader" class="box__file sr-only">
+
+              <strong>Choose a file</strong>
+              <span class="box__dragndrop"> or drag it here</span>.
+            </label>
+          </div>
+          <button type="submit" class="box__button">
+            <span>
+              Diagnosing your image
+            </span>
+            <div class="loadingSpinner"></div>
+          </button>
+          <button type="button" class="reset__button hidden"> Try Again</button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="copy-right text-center">
+      Copyright © 2018 Powered by Phuc Coi | Email: phuccoi996@gmail.com
+    </div>
+  </footer>
+  <div id="snackbar"></div>
+  <script src="../static/dist/app.bundle.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118958903-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118958903-1');
+  </script>
+</body>
+
+</html>
