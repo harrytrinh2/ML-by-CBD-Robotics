@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Flask_Submition.iml" filepath="$PROJECT_DIR$/.idea/Flask_Submition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/flask-multi-upload-master.iml" filepath="$PROJECT_DIR$/.idea/flask-multi-upload-master.iml" />
     </modules>
   </component>
 </project>
